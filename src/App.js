@@ -10,19 +10,24 @@ import { NoMatch } from './components/pages/NoMatch';
 import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
 
+const Everything = styled.div`
+  background-color: red;
+`
+
 const Wrapper = styled.div`
   margin: 2.5rem 9rem;
   width: 85%;
   height: 90%;
   border: 1px solid black;
+  border-radius: 15px;
   padding: 2rem;
   position: absolute;
   overflow: scroll;
+  background-color: white;
 `;
 
 function App() {
   return (
-  <React.Fragment>
     <Router>
       {/* <NavigationBar /> */}
       <Sidebar />
@@ -35,7 +40,6 @@ function App() {
         </Switch>
       </Wrapper>
     </Router>
-  </React.Fragment>
   );
 }
 
