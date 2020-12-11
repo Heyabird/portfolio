@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const NoMatch = () => (
+export const Design = () => (
   <>
-    <h2>Music</h2>
+    <h2>Design</h2>
+    <p></p>
   </>
 )

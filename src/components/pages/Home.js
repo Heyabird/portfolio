@@ -1,17 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 6em;
-  margin-right: 6em;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(25px, auto);
+const Wrapper = styled.div`
+
 `;
 export const Home = (props) => (
   <>
-    <h2>Home Page</h2>
-    <p>This is a paragraph and I am writing on the home page</p>
+    <p>Heyo! My name is Heya, and I like to code, design, and make music.<br/>Click on an icon on the left to see some of my projects.</p>
   </>
 )
