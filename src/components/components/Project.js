@@ -22,11 +22,10 @@ export default class Project extends React.Component {
     return (
       <>
         <Wrapper>
-          <Tile>
+          <Tile class="code-project" id="smash-computer">
             Smash the Computer
           </Tile>
-          < Tile>
-            Web Drum Kit
+          <Tile class="code-project" id="web-drum-kit">
           </Tile>
           < Tile>
             RPi Drum Kit

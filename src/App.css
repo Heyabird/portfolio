@@ -19,3 +19,29 @@ p {
   text-align: center;
   margin-right: 4%;
 }
+
+.code-project {
+  background-size: cover;
+  color: white;
+}
+
+#smash-computer {
+  background-image: url(./project-images/smash-computer.png);
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  -webkit-filter: blur(1px);
+}
+
+#web-drum-kit:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#web-drum-kit {
+  background-image: url(./project-images/web-drum-kit.png);
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  -webkit-filter: blur(1px);
+}
