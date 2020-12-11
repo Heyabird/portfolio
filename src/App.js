@@ -11,12 +11,13 @@ import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-  margin: 2.5rem 7rem;
-  width: 90%;
+  margin: 2.5rem 9rem;
+  width: 85%;
   height: 90%;
   border: 1px solid black;
   padding: 2rem;
   position: absolute;
+  overflow: scroll;
 `;
 
 function App() {

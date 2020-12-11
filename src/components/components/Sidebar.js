@@ -10,7 +10,7 @@ class SideNav extends React.Component {
       items: [
         {
           path: '/', /* path is used as id to check which NavItem is active basically */
-          name: 'Home',
+          name: 'Heya',
           css: 'fa fa-fw fa-circle',
           key: 1 /* Key is required, else console throws error. Does this please you Mr. Browser?! */
         },
@@ -47,7 +47,7 @@ class SideNav extends React.Component {
           items.map((item) => {
             /* Return however many NavItems in array to be rendered */
             return (
-              <NavItem path={item.path} name={item.name} css={item.css} onItemClick={this.onItemClick} /* Simply passed an entire function to onClick prop */ active={item.path === activePath} key={item.key}/>
+              <NavItem path={item.path} name={item.name} css={item.css} icon={item.icon} onItemClick={this.onItemClick} /* Simply passed an entire function to onClick prop */ active={item.path === activePath} key={item.key}/>
             )
           })
         }

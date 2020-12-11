@@ -9,6 +9,7 @@ const Wrapper = styled.div`
 const Tile = styled.div`
   margin: 1rem;
   width: 30%;
+  height: 300px;
   border: 1px solid black;
   border-radius: 10px;
   padding: 2rem;
@@ -19,25 +20,30 @@ export default class Project extends React.Component {
 
   render() {
     return (
-      <Wrapper>
-        <Tile>
-          Smash the Computer
-        </Tile>
-        < Tile>
-          Web Drum Kit
-        </Tile>
-        < Tile>
-          RPi Drum Kit
-        </Tile>
-        <Tile>
-          Smash the Computer
-        </Tile>
-        < Tile>
-          Web Drum Kit
-        </Tile>
-        < Tile>
-          RPi Drum Kit
-        </Tile>      </Wrapper>
+      <>
+        <Wrapper>
+          <Tile>
+            Smash the Computer
+          </Tile>
+          < Tile>
+            Web Drum Kit
+          </Tile>
+          < Tile>
+            RPi Drum Kit
+          </Tile>
+          </Wrapper>
+          <Wrapper>
+          <Tile>
+            Sandcamp
+          </Tile>
+          < Tile>
+            Pikamovie
+          </Tile>
+          < Tile>
+            Airmap
+          </Tile>      
+        </Wrapper>
+      </>
     );
   }
 }
