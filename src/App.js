@@ -15,9 +15,9 @@ const Everything = styled.div`
 `
 
 const Wrapper = styled.div`
-  margin: 2.5rem 9rem;
-  width: 85%;
-  height: 90%;
+  margin: 2rem 9rem;
+  width: 88%;
+  height: 92%;
   // border: 1px solid black;
   border-radius: 15px;
   padding: 2rem;

@@ -67,7 +67,7 @@ export default class Project extends React.Component {
               <h4>PikaMovie</h4>
               <div>
                 <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
-                <Button href="https://github.com/Heyabird/pikachoose_app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
+                <Button href="https://github.com/TheJonasSisters/pikachoose_app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div> 
             <div className="project-description">
