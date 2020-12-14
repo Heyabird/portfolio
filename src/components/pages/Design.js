@@ -4,8 +4,11 @@ import styled from 'styled-components';
 export const Design = () => (
   <>
     <div className="page-header">
-      <h2>Design</h2>
-      <p></p>
+      <div>
+        <h2>Design</h2>
+        <p>Coming Soon!</p>
+      </div>
     </div>
+    
   </>
 )
