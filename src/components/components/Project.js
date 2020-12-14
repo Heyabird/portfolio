@@ -32,9 +32,6 @@ export default class Project extends React.Component {
               {/* <Button color="secondary">Front-end</Button> */}
               {/* <Button color="warning">CSS</Button>  */}
               <Button color="success">Javascript</Button>
-
-
-
             </div>
           </Col>
           <Col className="code-project" id="web-drum-kit">
