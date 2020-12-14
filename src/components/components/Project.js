@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import styled from 'styled-components';
 import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
-import Pikamovie from '../../project-images/Pikamovie.png'
+import Pikamovie from '../../project-images/pikamovie.png'
 
 const Wrapper = styled.div`
   display: flex;
@@ -51,14 +51,15 @@ export default class Project extends React.Component {
           </Col>
           <Col className="code-project">
             <div className="project-header">
-              <p>PikaMovie</p>
+              <h4>PikaMovie</h4>
               <div>
                 <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
                 <Button href="https://github.com/Heyabird/pikachoose_app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div> 
-            <div className="img-container">
+            <div className="project-description">
               <img src={Pikamovie}/>
+              <p>A CRUD app that picks a movie for you.</p>
             </div> 
             <div className="btn-container">
               {/* <Button color="secondary">Full-Stack</Button> */}
