@@ -3,6 +3,10 @@ import styled from 'styled-components';
 
 export const NoMatch = () => (
   <>
-    <h2>Music</h2>
+    <div className="page-header">
+      <div>
+        <h2>Music</h2>  
+      </div>
+    </div>
   </>
 )

@@ -8,16 +8,6 @@ const Wrapper = styled.div`
   display: flex;
 `;
 
-const Tile = styled.div`
-  margin: 1rem;
-  width: 30%;
-  height: 300px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: black;
-  padding: 1rem;
-//   position: absolute;
-`;
 
 const Tag = styled.div`
   background-color: red;

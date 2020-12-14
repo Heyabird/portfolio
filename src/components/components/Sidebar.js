@@ -53,10 +53,6 @@ class SideNav extends React.Component {
     console.log("path: ", path)
     this.setState({ activePath: path }); /* Sets activePath which causes rerender which causes CSS to change */
   }
-  // handleClick = () => {
-  //   const { path, onItemClick } = this.props;
-  //   onItemClick(path);
-  // }
 
   render() {
     const { items, activePath } = this.state;

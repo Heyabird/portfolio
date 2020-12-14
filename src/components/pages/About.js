@@ -4,7 +4,7 @@ import { Button } from 'reactstrap';
 
 export const About = () => (
   <>
-    <div class="code-header">
+    <div className="page-header">
       <div>
         <h2>Code</h2>
         <p>Click on a project to see more.</p>

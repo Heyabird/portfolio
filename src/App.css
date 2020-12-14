@@ -13,9 +13,10 @@ p {
 
 /* PROJECT PAGE */
 
-.code-header {
+.page-header {
   display: flex;
   justify-content: space-between;
+  margin-left: 1rem;
 }
 
 .filter{
