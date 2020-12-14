@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import styled from 'styled-components';
 import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import Pikamovie from '../../project-images/Pikamovie.png'
 
 const Wrapper = styled.div`
   display: flex;
@@ -55,7 +56,10 @@ export default class Project extends React.Component {
                 <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
                 <Button href="https://github.com/Heyabird/pikachoose_app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
-            </div>  
+            </div> 
+            <div className="img-container">
+              <img src={Pikamovie}/>
+            </div> 
             <div className="btn-container">
               {/* <Button color="secondary">Full-Stack</Button> */}
               <Button color="info">React</Button>
