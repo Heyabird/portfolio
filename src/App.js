@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   border-radius: 15px;
   padding: 2rem;
   position: absolute;
-  // overflow: scroll;
+  overflow: scroll;
   background-color: #E7E7E7;
 `;
 

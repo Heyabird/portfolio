@@ -24,8 +24,15 @@ p {
   margin-right: 4%;
 }
 
-.filter Button {
-  min-width: 80px;
+.code-project Button, .page-header Button, .code-project a {
+  /* min-width: 80px; */
+  font-size: 14px;
+  padding: 4px 6px;
+  height: 32px;
+}
+
+.code-project Button, a {
+  margin-right: 5px;
 }
 
 .code-project {
@@ -43,10 +50,10 @@ p {
   padding: 1rem;
 }
 
-/* .code-project:hover {
-  opacity: 0.5;
-  cursor: pointer;
-} */
+.project-header {
+  display: flex;
+  justify-content: space-between;
+}
 
 #smash-computer {
   /* background-image: url(./project-images/smash-computer.png); */
@@ -62,6 +69,3 @@ p {
   left: .5rem;
 }
 
-.btn-container Button {
-  margin-right: 0.5rem;
-}
