@@ -18,28 +18,30 @@ const Wrapper = styled.div`
   margin: 2.5rem 9rem;
   width: 85%;
   height: 90%;
-  border: 1px solid black;
+  // border: 1px solid black;
   border-radius: 15px;
   padding: 2rem;
   position: absolute;
-  overflow: scroll;
-  background-color: white;
+  // overflow: scroll;
+  background-color: #E7E7E7;
 `;
 
 function App() {
   return (
-    <Router>
-      {/* <NavigationBar /> */}
-      <Sidebar />
-      <Wrapper>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/design" component={Design} />
-          <Route component={NoMatch} />
-        </Switch>
-      </Wrapper>
-    </Router>
+    <div className="everything">
+      <Router>
+        {/* <NavigationBar /> */}
+        <Sidebar />
+        <Wrapper>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/design" component={Design} />
+            <Route component={NoMatch} />
+          </Switch>
+        </Wrapper>
+      </Router>
+    </div>
   );
 }
 

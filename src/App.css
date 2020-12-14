@@ -1,5 +1,5 @@
-.everything {
-  background-color: red;
+.kclFnS {
+  background-color: red !important;
 }
 
 p {
@@ -11,41 +11,56 @@ p {
   font-size: 18px;
 }
 
+/* PROJECT PAGE */
+
 .code-header {
   display: flex;
   justify-content: space-between;
 }
 
-.filter {
-  border: 1px solid black;
-  height: 26px;
-  width: 80px;
+.filter{
   text-align: center;
   margin-right: 4%;
 }
 
-.code-project {
-  background-size: cover;
-  color: white;
+.filter Button {
+  min-width: 80px;
 }
 
-#smash-computer {
-  background-image: url(./project-images/smash-computer.png);
-  background-size: cover;
+.code-project {
+  background-size: 100%;
+  background-position: 50%;
   color: white;
   font-weight: bold;
-  -webkit-filter: blur(1px);
+  position: relative;
+  margin: 1rem;
+  width: 30%;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  padding: 1rem;
 }
 
-#web-drum-kit:hover {
+/* .code-project:hover {
   opacity: 0.5;
   cursor: pointer;
+} */
+
+#smash-computer {
+  /* background-image: url(./project-images/smash-computer.png); */
 }
 
 #web-drum-kit {
-  background-image: url(./project-images/web-drum-kit.png);
-  background-size: cover;
-  color: white;
-  font-weight: bold;
-  -webkit-filter: blur(1px);
+  /* background-image: url(./project-images/web-drum-kit.png); */
+}
+
+.btn-container {
+  position: absolute; 
+  bottom: .5rem;  
+  left: .5rem;
+}
+
+.btn-container Button {
+  margin-right: 0.5rem;
 }

@@ -5,8 +5,9 @@ export const StyledSideNav = styled.div`
   height: 100%;
   width: 100px;     /* Set the width of the sidebar */
   z-index: 1;      /* Stay on top of everything */
-  top: 3.4em;      /* Stay at the top */
+  top: 2rem;      /* Stay at the top */
   background-color: #fff; /* White */
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 10px;
+  margin-left: 1rem;
 `;

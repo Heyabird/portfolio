@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../components/Project';
+import { Button } from 'reactstrap';
 
 export const About = () => (
   <>
@@ -8,7 +9,7 @@ export const About = () => (
         <h2>Code</h2>
         <p>Click on a project to see more.</p>
       </div>
-      <div class="filter">Filter</div>
+      {/* <div class="filter"><Button>Filter</Button></div> */}
     </div>
     <Project/>
   </>

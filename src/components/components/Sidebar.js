@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyledSideNav } from './StyledSideNav';
 import { StyledNavItem } from './StyledNavItem';
-import NavItem from './NavItem';
-import heya from './heya.svg'
-import code from './code.svg'
-import design from './design.svg'
-import music from './music.svg'
+// import NavItem from './NavItem';
+import heya from '../../icons/heya.svg'
+import code from '../../icons/code.svg'
+import design from '../../icons/design.svg'
+import music from '../../icons/music.svg'
 
 
 import styled from "styled-components";
