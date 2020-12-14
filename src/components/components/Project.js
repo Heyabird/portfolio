@@ -28,14 +28,14 @@ export default class Project extends React.Component {
         <Row>
           <Col className="code-project" id="smash-computer">
             <div className="project-header">
-              <p>Smash Computer</p>
+              <h5>👩🏻‍💻 Smash Computer</h5>
               <div>
                 <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
                 <Button href="https://github.com/heyabird/anger-release-app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>
             <div className="project-description">
-              <img src={SmashComputer}/>
+              {/* <img src={SmashComputer}/> */}
               <p>Stuck? Angry? Smash your virtual computer.</p>
             </div>    
             <div className="btn-container">
@@ -46,14 +46,14 @@ export default class Project extends React.Component {
           </Col>
           <Col className="code-project" id="web-drum-kit">
           <div className="project-header">
-              <p>Web Drum Kit</p>
+              <h5>🥁 Web Drum Kit</h5>
               <div>
                 <Button href="https://heyadrums.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
                 <Button href="https://github.com/Heyabird/heya_drum_kit" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>    
             <div className="project-description">
-              <img src={WebDrumKit}/>
+              {/* <img src={WebDrumKit}/> */}
               <p>Play drums online using heya samples.</p>
             </div>         
             <div className="btn-container">
@@ -64,14 +64,14 @@ export default class Project extends React.Component {
           </Col>
           <Col className="code-project">
             <div className="project-header">
-              <h4>PikaMovie</h4>
+              <h5>🍿 PikaMovie</h5>
               <div>
                 <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
                 <Button href="https://github.com/TheJonasSisters/pikachoose_app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div> 
             <div className="project-description">
-              <img src={Pikamovie}/>
+              {/* <img src={Pikamovie}/> */}
               <p>A CRUD app that picks a movie for you.</p>
             </div> 
             <div className="btn-container">
@@ -86,14 +86,14 @@ export default class Project extends React.Component {
         <Row>
           <Col className="code-project">
           <div className="project-header">
-              <p>Sandcamp</p>
+              <h5>🎧 Sandcamp</h5>
               <div>
                 {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button> */}
                 <Button href="https://github.com/Heyabird/Sandcamp_v2" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>    
             <div className="project-description">
-              <img src={Sandcamp}/>
+              {/* <img src={Sandcamp}/> */}
               <p>Discover hidden gems of the music world.</p>
             </div>            
             <div className="btn-container">
@@ -106,14 +106,14 @@ export default class Project extends React.Component {
           </Col>
           <Col className="code-project">
           <div className="project-header">
-              <p>Air Map</p>
+              <h5>🗺 Air Map</h5>
               <div>
                 {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button> */}
                 <Button href="https://github.com/Heyabird/air_pollution_map_VERSION2" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>   
             <div className="project-description">
-              <img src={Airmap}/>
+              {/* <img src={Airmap}/> */}
               <p>See the air pollution data in major cities.</p>
             </div>                 
             <div className="btn-container">
@@ -124,14 +124,14 @@ export default class Project extends React.Component {
           </Col>   
           <Col className="code-project">
           <div className="project-header">
-              <p>RPi Drum Kit</p>
+              <h5>🕹 RPi Drum Kit</h5>
               <div>
                 {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button> */}
                 <Button href="https://github.com/Heyabird/RaspberryPi-Drumkit" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>
             <div className="project-description">
-              <img src={RpiDrumKit}/>
+              {/* <img src={RpiDrumKit}/> */}
               <p>Raspberry Pi drum kit using arcade buttons.</p>
             </div>  
             <div className="btn-container">
