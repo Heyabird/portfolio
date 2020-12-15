@@ -20,9 +20,10 @@ const Wrapper = styled.div`
   height: 92%;
   // border: 1px solid black;
   border-radius: 15px;
+  max-width: 1250px;
   padding: 2rem;
   position: absolute;
-  overflow: scroll;
+  // overflow: scroll;
   background-color: #E7E7E7;
 `;
 

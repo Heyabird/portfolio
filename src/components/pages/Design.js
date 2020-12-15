@@ -9,6 +9,5 @@ export const Design = () => (
         <p>Coming Soon!</p>
       </div>
     </div>
-    
   </>
 )
