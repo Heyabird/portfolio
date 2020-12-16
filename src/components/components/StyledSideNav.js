@@ -9,7 +9,8 @@ export const StyledSideNav = styled.div`
   // width: 100px;     /* Set the width of the sidebar */
   z-index: 2;      
   top: 2rem;      /* Stay at the top */
-  background-color: #fff; /* White */
+  background-color: white; 
+  color: white;
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 10px;
   margin-left: 1rem;

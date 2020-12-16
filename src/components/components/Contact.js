@@ -5,8 +5,8 @@ import styled from 'styled-components';
 const Styles = styled.div`
   .navbar {
     position: absolute;
-    bottom: 0%;
-    z-index: 0;
+    bottom: 30px;
+    z-index: 1;
     right: 5%;
     // width: 50%;
     background-color: #white; 
@@ -25,14 +25,17 @@ const Styles = styled.div`
     left: 25%;
     right: 25%;
   }
+  .fab {
+    margin: 10px;
+  }
 `;
 export const Contact = () => (
   <Styles>
     <Navbar expand="lg">
       {/* <p>Contact Me</p> */}
-      <i class="fab fa-linkedin fa-2x"></i>
-      <i class="fab fa-twitter fa-2x"></i>
-      <i class="fab fa-github-alt fa-2x"></i> 
+      <a href="https://www.linkedin.com/in/heya/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/heya/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+      <a href=""><i class="fab fa-github-alt fa-3x"></i></a>
       {/* <Button href="https://github.com/heyabird/anger-release-app" target="_blank"> */}
         {/* Repo</Button> */}
       {/* <Navbar.Brand href="/">Contact Me</Navbar.Brand> */}
