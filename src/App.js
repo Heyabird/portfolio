@@ -9,6 +9,13 @@ import { Design } from './components/pages/Design';
 import { NoMatch } from './components/pages/NoMatch';
 import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: white;
+  }
+`
 
 const breakpoint = 480;
 
@@ -26,6 +33,7 @@ const Wrapper = styled.div`
   position: absolute;
   // overflow: scroll;
   background-color: #E7E7E7;
+  z-index: 2;
 
   @media (max-width: ${breakpoint}px) {
     padding: 1rem;
@@ -42,20 +50,21 @@ const Wrapper = styled.div`
 
 function App() {
   return (
-    <div className="everything">
-      <Router>
-        <Sidebar />
-        <Wrapper>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/design" component={Design} />
-            <Route component={NoMatch} />
-          </Switch>
-        </Wrapper>
-        <Contact />
-      </Router>
-    </div>
+    <>
+    <GlobalStyle/>
+    <Router>
+      <Sidebar />
+      <Wrapper>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/design" component={Design} />
+          <Route component={NoMatch} />
+        </Switch>
+      </Wrapper>
+      <Contact />
+    </Router>
+    </>
   );
 }
 
