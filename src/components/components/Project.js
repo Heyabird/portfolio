@@ -27,7 +27,7 @@ export default class Project extends React.Component {
             <div className="project-header">
               <h5>Smash Computer</h5>
               <div>
-                <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
+                <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
                 <Button href="https://github.com/heyabird/anger-release-app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default class Project extends React.Component {
           <div className="project-header">
               <h5>Web Drum Kit</h5>
               <div>
-                <Button href="https://heyadrums.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
+                <Button href="https://heyadrums.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
                 <Button href="https://github.com/Heyabird/heya_drum_kit" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>    
@@ -63,7 +63,7 @@ export default class Project extends React.Component {
             <div className="project-header">
               <h5>PikaMovie</h5>
               <div>
-                <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button>
+                <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
                 <Button href="https://github.com/TheJonasSisters/pikachoose_app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div> 
@@ -86,7 +86,7 @@ export default class Project extends React.Component {
           <div className="project-header">
               <h5>Sandcamp</h5>
               <div>
-                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button> */}
+                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button> */}
                 <Button href="https://github.com/Heyabird/Sandcamp_v2" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>    
@@ -107,7 +107,7 @@ export default class Project extends React.Component {
           <div className="project-header">
               <h5>Air Map</h5>
               <div>
-                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button> */}
+                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button> */}
                 <Button href="https://github.com/Heyabird/air_pollution_map_VERSION2" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>   
@@ -127,7 +127,7 @@ export default class Project extends React.Component {
           <div className="project-header">
               <h5>RPi Drum Kit</h5>
               <div>
-                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Try</Button> */}
+                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button> */}
                 <Button href="https://github.com/Heyabird/RaspberryPi-Drumkit" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>

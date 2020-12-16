@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { NavigationBar } from './components/components/NavigationBar';
+import { Contact } from './components/components/Contact';
 import { Home } from './components/pages/Home';
 import { About } from './components/pages/About';
 import { Design } from './components/pages/Design';
@@ -17,12 +17,11 @@ const Everything = styled.div`
 `
 
 const Wrapper = styled.div`
-  margin: 2rem 9rem;
-  width: 88%;
-  height: 92%;
+  margin: 2.5rem 5rem 2.5rem 9rem;
+  height: 86%;
   // border: 1px solid black;
   border-radius: 15px;
-  max-width: 1250px;
+  min-width: 85%;
   padding: 2rem;
   position: absolute;
   // overflow: scroll;
@@ -45,7 +44,6 @@ function App() {
   return (
     <div className="everything">
       <Router>
-        {/* <NavigationBar /> */}
         <Sidebar />
         <Wrapper>
           <Switch>
@@ -55,6 +53,7 @@ function App() {
             <Route component={NoMatch} />
           </Switch>
         </Wrapper>
+        <Contact />
       </Router>
     </div>
   );

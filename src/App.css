@@ -3,7 +3,7 @@
 }
 
 .page-header h2 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 p {
@@ -24,6 +24,10 @@ p {
 .nav-text {
   font-size: 16px;
   margin: 1rem;
+}
+
+.fab {
+  margin: 2px;
 }
 
 /* PROJECT PAGE */
@@ -139,6 +143,7 @@ p {
 
   .page-header {
     margin: 0 auto;
+    display: none;
   }
 
   .page-header h2 {
@@ -149,7 +154,11 @@ p {
   /* CODE PROJECT PAGE */
   .code-project {
     /* padding: .7rem; */
-    height: 220px;
+    height: 210px;
+  }
+
+  .col {
+    margin-top: 0 !important;
   }
 
   #code-page-description {

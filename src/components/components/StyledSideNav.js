@@ -5,9 +5,9 @@ const breakpoint = 480;
 
 export const StyledSideNav = styled.div`
   position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
-  height: 100%;
+  // height: 80%;
   // width: 100px;     /* Set the width of the sidebar */
-  z-index: 1;      /* Stay on top of everything */
+  z-index: 2;      
   top: 2rem;      /* Stay at the top */
   background-color: #fff; /* White */
   overflow-x: hidden;     /* Disable horizontal scroll */
