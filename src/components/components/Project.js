@@ -21,7 +21,7 @@ export default class Project extends React.Component {
 
   render() {
     return (
-      <div class="container">
+      <div class="project-container">
         <Row>
           <Col className="code-project" id="smash-computer">
             <div className="project-header">

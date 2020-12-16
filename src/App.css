@@ -27,11 +27,11 @@ p {
 }
 
 /* PROJECT PAGE */
-.container {
+.project-container {
   max-width: 1200px;
 }
 .page-header {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   margin-left: 1rem;
 }
@@ -93,7 +93,7 @@ p {
 .code-project img{
   max-height: 90px;
   max-width: 100px;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
 }
 
 #smash-computer {
@@ -110,3 +110,54 @@ p {
   left: 1rem;
 }
 
+@media screen and (max-width: 1110px) {
+  .project-header h5 {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 0 !important;
+  }
+
+  .code-project Button, .page-header Button, .code-project a {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .code-project Button, a, #tag-description Button{
+    margin-right: 3px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-container {
+    max-width: 500px;
+    /* background-color: red; */
+  }
+
+  .page-header {
+    margin: 0 auto;
+  }
+
+  .page-header h2 {
+    margin: 0;
+    text-align: center;
+  }
+
+  /* CODE PROJECT PAGE */
+  .code-project {
+    /* padding: .7rem; */
+    height: 220px;
+  }
+
+  #code-page-description {
+    display: none;
+  }
+
+  .btn-container {
+    /* left: .5rem;
+    bottom: .5rem; */
+  }
+}

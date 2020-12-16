@@ -10,6 +10,8 @@ import { NoMatch } from './components/pages/NoMatch';
 import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
 
+const breakpoint = 480;
+
 const Everything = styled.div`
   background-color: red;
 `
@@ -25,6 +27,18 @@ const Wrapper = styled.div`
   position: absolute;
   // overflow: scroll;
   background-color: #E7E7E7;
+
+  @media (max-width: ${breakpoint}px) {
+    padding: 1rem;
+    margin: 0 1rem .5rem 1rem;
+    max-width: 100%;
+    height: inherit;
+    min-height: 85%;
+    min-width: 100%;
+    border-radius: 0;
+    width: inherit;
+    margin: 0 auto;
+  }
 `;
 
 function App() {
