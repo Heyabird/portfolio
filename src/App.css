@@ -27,7 +27,7 @@ p {
 }
 
 .fab {
-  margin: 2px;
+  margin: 4px;
 }
 
 /* PROJECT PAGE */
@@ -64,16 +64,16 @@ p {
 }
 
 .code-project {
+  background-color: white;
   background-size: 100%;
   background-position: 50%;
-  color: white;
+  color: black;
   position: relative;
   margin: 1rem;
   width: 34%;
   height: 240px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 10px;
-  background-color: black;
   padding: 1rem;
 }
 
