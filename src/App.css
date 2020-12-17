@@ -17,6 +17,10 @@ p {
   color: black !important;
 }
 
+.btn-secondary:hover {
+  background-color: #F0C3FF !important;
+}
+
 .col {
   margin: 10px !important;
 }
