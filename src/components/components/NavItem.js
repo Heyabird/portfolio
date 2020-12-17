@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { StyledNavItem } from './StyledNavItem';
 import styled from "styled-components";
-import heya from '../../icons/heya.svg';
+// import heya from '../../icons/heya.svg';
 
 
 export default class NavItem extends React.Component {
@@ -24,8 +24,7 @@ export default class NavItem extends React.Component {
     return (
       <StyledNavItem active={active}>
         <Link to={this.props.path} onClick={this.handleClick}>
-          <NavIcon></NavIcon>
-          <img src={heya} alt="icon"/>
+          <img src={this.props.imagePath} alt="icon"/>
           <p class="nav-text">{this.props.name}</p>
         </Link>
     </StyledNavItem>
