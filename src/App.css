@@ -147,12 +147,12 @@ p {
 
   .page-header {
     margin: 0 auto;
-    display: none;
+    /* display: none; */
   }
 
   .page-header h2 {
     margin: 0;
-    text-align: center;
+    text-align: left;
   }
 
   /* CODE PROJECT PAGE */
