@@ -22,9 +22,9 @@ export default class NavItem extends React.Component {
     const { active } = this.props;
     const NavIcon = styled.div`x`;
     return (
-      <StyledNavItem active={active}>
+      <StyledNavItem active={active} >
         <Link to={this.props.path} onClick={this.handleClick}>
-          <img src={this.props.imagePath} alt="icon"/>
+          <img className="" src={this.props.imagePath} alt="icon"/>
           <p class="nav-text">{this.props.name}</p>
         </Link>
     </StyledNavItem>

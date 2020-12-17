@@ -23,7 +23,7 @@ export default class Project extends React.Component {
     return (
       <div class="project-container">
         <Row>
-          <Col className="code-project hvr-float-shadow" id="smash-computer">
+          <Col className="code-project hvr-float-shadow shine" id="smash-computer">
             <div className="project-header">
               <h5>Smash Computer</h5>
               <div>

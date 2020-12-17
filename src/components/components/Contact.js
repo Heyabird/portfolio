@@ -13,6 +13,7 @@ const Styles = styled.div`
   }
   a, .navbar-nav, .navbar-light .nav-link {
     color: black;
+    transition: color .5s;
     &:hover { color: #007BFF; }
   }
   .navbar-brand {
@@ -33,7 +34,7 @@ export const Contact = () => (
   <Styles>
     <Navbar expand="lg">
       {/* <p>Contact Me</p> */}
-      <a href="https://www.linkedin.com/in/heya/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/heya/" target="_blank" class=""><i class="fab fa-linkedin fa-3x "></i></a>
       <a href="https://www.linkedin.com/in/heya/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
       <a href=""><i class="fab fa-github-alt fa-3x"></i></a>
       {/* <Button href="https://github.com/heyabird/anger-release-app" target="_blank"> */}
