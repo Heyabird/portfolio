@@ -2,14 +2,17 @@ import React from 'react';
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import { Button } from 'reactstrap';
 import styled from 'styled-components';
+
+const mobile_breakpoint = 480;
+const xl_breakpoint = 1700;
+
 const Styles = styled.div`
   .navbar {
     position: absolute;
-    bottom: 45px;
+    bottom: -50px;
     z-index: 1;
     right: 5%;
     // width: 50%;
-    background-color: #white; 
   }
   a, .navbar-nav, .navbar-light .nav-link {
     color: black;
@@ -28,6 +31,19 @@ const Styles = styled.div`
   }
   .fab {
     margin: 10px;
+  }
+  @media (max-width: ${mobile_breakpoint}px) {
+    .navbar { 
+      position: fixed;
+      bottom: 2%;
+      right: 0;
+      // background-color: red;
+    }
+    a {
+      background-color: white; 
+      border-radius: 50px;
+      height: 50px;
+    }
   }
 `;
 export const Contact = () => (

@@ -30,7 +30,7 @@ const Everything = styled.div`
 `
 
 const Wrapper = styled.div`
-  margin: 3rem 5rem 2.5rem 9rem;
+  margin: 3rem 4rem 2.5rem 9.5rem;
   height: 82%;
   border: 1px solid black;
   border-radius: 10px;
@@ -54,6 +54,10 @@ const Wrapper = styled.div`
     width: inherit;
     margin: 0 auto;
   }
+
+  @media (min-width: ${xl_breakpoint}px) {
+    margin-top: 6%;
+  }
 `;
 
 function App() {
@@ -62,8 +66,8 @@ function App() {
     <GlobalStyle/>
     <Router>
       {/* <Everything> */}
-        <Sidebar />
         <Wrapper>
+        <Sidebar />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
