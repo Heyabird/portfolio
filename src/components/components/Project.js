@@ -23,7 +23,7 @@ export default class Project extends React.Component {
     return (
       <div class="project-container">
         <Row>
-          <Col className="code-project" id="smash-computer">
+          <Col className="code-project hvr-float-shadow" id="smash-computer">
             <div className="project-header">
               <h5>Smash Computer</h5>
               <div>
@@ -41,7 +41,7 @@ export default class Project extends React.Component {
               <Button color="success">CSS</Button> 
             </div>
           </Col>
-          <Col className="code-project" id="web-drum-kit">
+          <Col className="code-project hvr-float-shadow" id="web-drum-kit">
           <div className="project-header">
               <h5>Web Drum Kit</h5>
               <div>
@@ -59,7 +59,7 @@ export default class Project extends React.Component {
               <Button color="success">CSS</Button> 
             </div>
           </Col>
-          <Col className="code-project">
+          <Col className="code-project hvr-float-shadow">
             <div className="project-header">
               <h5>PikaMovie</h5>
               <div>
@@ -82,7 +82,7 @@ export default class Project extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col className="code-project">
+          <Col className="code-project hvr-float-shadow">
           <div className="project-header">
               <h5>Sandcamp</h5>
               <div>
@@ -103,7 +103,7 @@ export default class Project extends React.Component {
               <Button color="primary">Spotify</Button> 
             </div>
           </Col>
-          <Col className="code-project">
+          <Col className="code-project hvr-float-shadow">
           <div className="project-header">
               <h5>Air Map</h5>
               <div>
@@ -123,7 +123,7 @@ export default class Project extends React.Component {
             </div>                 
 
           </Col>   
-          <Col className="code-project">
+          <Col className="code-project hvr-float-shadow">
           <div className="project-header">
               <h5>RPi Drum Kit</h5>
               <div>

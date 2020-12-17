@@ -11,9 +11,10 @@ export const StyledNavItem = styled.div`
     font-size: 3.2em;
     border-radius: 50px;
     color: ${(props) => props.active ? "#007BFF" : "black"};
+    transition: opacity 1s;
 
     :hover {
-      opacity: 0.6;
+      opacity: 0.5;
       text-decoration: none; /* Gets rid of underlining of icons */
     }  
   img {

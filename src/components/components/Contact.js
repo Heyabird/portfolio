@@ -13,12 +13,12 @@ const Styles = styled.div`
   }
   a, .navbar-nav, .navbar-light .nav-link {
     color: black;
-    &:hover { color: #59E970; }
+    &:hover { color: #007BFF; }
   }
   .navbar-brand {
     font-size: 1.4em;
     color: black;
-    &:hover { color: #59E970; }
+    &:hover { color: #007BFF; }
   }
   .form-center {
     position: absolute !important;
