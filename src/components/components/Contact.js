@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Styles = styled.div`
   .navbar {
     position: absolute;
-    bottom: 30px;
+    bottom: 45px;
     z-index: 1;
     right: 5%;
     // width: 50%;
@@ -13,12 +13,12 @@ const Styles = styled.div`
   }
   a, .navbar-nav, .navbar-light .nav-link {
     color: black;
-    &:hover { color: #9FFFCB; }
+    &:hover { color: #59E970; }
   }
   .navbar-brand {
     font-size: 1.4em;
     color: black;
-    &:hover { color: #9FFFCB; }
+    &:hover { color: #59E970; }
   }
   .form-center {
     position: absolute !important;

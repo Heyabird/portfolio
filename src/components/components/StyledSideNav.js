@@ -12,8 +12,8 @@ export const StyledSideNav = styled.div`
   background-color: white; 
   color: white;
   overflow-x: hidden;     /* Disable horizontal scroll */
-  padding-top: 10px;
-  margin-left: 1rem;
+  padding-top: 2%;
+  margin-left: 2%;
 
   @media (max-width: ${breakpoint}px) {
     position: inherit;

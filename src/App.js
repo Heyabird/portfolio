@@ -14,25 +14,25 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: white;
+    
   }
 `
 
 const breakpoint = 480;
 
-const Everything = styled.div`
-  background-color: red;
-`
 
 const Wrapper = styled.div`
-  margin: 2.5rem 5rem 2.5rem 9rem;
-  height: 86%;
-  // border: 1px solid black;
-  border-radius: 15px;
-  min-width: 85%;
+  margin: 3rem 5rem 2.5rem 9rem;
+  height: 82%;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 85%;
+  max-width: 1300px;
+  max-height: 700px;
   padding: 2rem;
   position: absolute;
   // overflow: scroll;
-  background-color: #E7E7E7;
+  // background-color: #E7E7E7;
   z-index: 2;
 
   @media (max-width: ${breakpoint}px) {

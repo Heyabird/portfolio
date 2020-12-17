@@ -3,7 +3,7 @@
 }
 
 .page-header h2 {
-  /* margin-bottom: 20px; */
+  margin-bottom: 0;
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 .page-header {
   /* display: flex; */
   justify-content: space-between;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 .page-header p {
@@ -64,10 +64,10 @@ p {
 }
 
 .code-project {
-  background-color: white;
+  background-color: black;
   background-size: 100%;
   background-position: 50%;
-  color: black;
+  color: white;
   position: relative;
   margin: 1rem;
   width: 34%;
