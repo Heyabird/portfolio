@@ -28,7 +28,7 @@ class SideNav extends React.Component {
         {
           path: '/', /* path is used as id to check which NavItem is active basically */
           name: 'heya',
-          imagePath: '/icons/code.svg',
+          imagePath: '/icons/heya.svg',
           activeImagePath: '/icons/code-active.svg',
           key: 1 /* Key is required, else console throws error. Does this please you Mr. Browser?! */,
           iconUrl: `{heya}`
@@ -44,7 +44,7 @@ class SideNav extends React.Component {
         {
           path: '/design',
           name: 'design',
-          imagePath: '/icons/code.svg',
+          imagePath: '/icons/design.svg',
           activeImagePath: '/icons/code-active.svg',          
           key: 3,
           iconUrl: ''
@@ -52,7 +52,7 @@ class SideNav extends React.Component {
         {
           path: '/music',
           name: 'music',
-          imagePath: '/icons/code.svg',
+          imagePath: '/icons/music.svg',
           activeImagePath: '/icons/code-active.svg',          
           key: 4,
           iconUrl: ''
@@ -67,6 +67,19 @@ class SideNav extends React.Component {
     this.setState({ activePath: path });
     console.log("image status : ", imagesPath['active'])
     console.log("active path : ", this.state.activePath)
+    this.changeIcon(path)
+  }
+
+  componentDidMount() {
+    if (this.state.activePath === '/about') {
+      console.log("componentDidUpdate activated")
+      this.setState({...this.state.items, imagePath: '/icons/code-active.svg'})
+    }
+  }
+
+  changeIcon = () => {
+    console.log("items[1]: ", this.state.items[1].imagePath)
+    this.setState({...this.state.items, imagePath: '/icons/code-active.svg'})
   }
 
   getImageStatus = () => this.state.code ? 'inactive':'active'
@@ -85,10 +98,6 @@ class SideNav extends React.Component {
             /* Return however many NavItems in array to be rendered */
             return (
               <NavItem path={item.path} name={item.name} imagePath={item.imagePath} onItemClick={this.onItemClick} active={item.path === activePath} key={item.key}/>
-
-              // <StyledNavItem path={item.path} name={item.name} imagePath={item.imagePath} activeImagePath={item.activeImagePath} icon={item.icon} onItemClick={this.onItemClick} /* Simply passed an entire function to onClick prop */ active={item.path === activePath} key={item.key} icon={item.iconUrl}/>
-
-              // <NavItem path={item.path} name={item.name} imagePath={item.imagePath} activeImagePath={item.activeImagePath} icon={item.icon} onItemClick={this.onItemClick} /* Simply passed an entire function to onClick prop */ active={item.path === activePath} key={item.key} icon={item.iconUrl}/>
             )
           })
         }
