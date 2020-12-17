@@ -1,7 +1,8 @@
 import styled from "styled-components";
 /* This defines the actual bar going down the screen */
 
-const breakpoint = 480;
+const mobile_breakpoint = 480;
+const xl_breakpoint = 1700;
 
 export const StyledSideNav = styled.div`
   position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
@@ -13,14 +14,18 @@ export const StyledSideNav = styled.div`
   color: white;
   overflow-x: hidden;     /* Disable horizontal scroll */
   padding-top: 2%;
-  margin-left: 2%;
+  margin-left: 30px;
 
-  @media (max-width: ${breakpoint}px) {
+  @media (max-width: ${mobile_breakpoint}px) {
     position: inherit;
     width: inherit;
     display: flex;
     justify-content: center;
     margin: 0 auto;
+  }
+
+  @media (min-width: ${xl_breakpoint}px) {
+    margin-left: 0%;
   }
 `;
 

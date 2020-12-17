@@ -11,14 +11,23 @@ import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components'
 
+const mobile_breakpoint = 480;
+const xl_breakpoint = 1700;
+
 const GlobalStyle = createGlobalStyle`
   body {
     background-color: white;
+    @media (min-width: ${xl_breakpoint}px) {
+      margin-left: 8%;
+      // display: flex;
+      // justify-content: center;
+    }
   }
 `
 
-const breakpoint = 480;
-
+const Everything = styled.div`
+  background-color: red;
+`
 
 const Wrapper = styled.div`
   margin: 3rem 5rem 2.5rem 9rem;
@@ -34,7 +43,7 @@ const Wrapper = styled.div`
   // background-color: #E7E7E7;
   z-index: 2;
 
-  @media (max-width: ${breakpoint}px) {
+  @media (max-width: ${mobile_breakpoint}px) {
     padding: 1rem;
     margin: 0 1rem .5rem 1rem;
     max-width: 100%;
@@ -52,16 +61,18 @@ function App() {
     <>
     <GlobalStyle/>
     <Router>
-      <Sidebar />
-      <Wrapper>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/design" component={Design} />
-          <Route component={NoMatch} />
-        </Switch>
-      </Wrapper>
-      <Contact />
+      {/* <Everything> */}
+        <Sidebar />
+        <Wrapper>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/design" component={Design} />
+            <Route component={NoMatch} />
+          </Switch>
+          <Contact />
+        </Wrapper>
+      {/* </Everything> */}
     </Router>
     </>
   );
