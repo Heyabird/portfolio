@@ -6,7 +6,7 @@ export const Design = () => (
     <div className="page-header">
       <div>
         <h2>Design</h2>
-        <p>Coming Soon!</p>
+        <p class="page-content">Coming Soon!</p>
       </div>
     </div>
   </>

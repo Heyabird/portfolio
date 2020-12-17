@@ -10,15 +10,15 @@ export const StyledNavItem = styled.div`
   a {
     font-size: 3.2em;
     border-radius: 50px;
-    color: ${(props) => props.active ? "#F0C3FF" : "black"};
+    color: ${(props) => props.active ? "#007BFF" : "black"};
 
     :hover {
       opacity: 0.6;
       text-decoration: none; /* Gets rid of underlining of icons */
     }  
   img {
-    border: ${(props) => props.active ? "1px solid #F0C3FF" : "1px solid black"};
-    background-color: ${(props) => props.active ? "#F0C3FF" : ""};
+    border: ${(props) => props.active ? "1px solid #007BFF" : "1px solid black"};
+    background-color: ${(props) => props.active ? "#007BFF" : ""};
     border-radius: ${(props) => props.active ? "10px" : "50px"}
   }
   @media (max-width: ${breakpoint}px) {

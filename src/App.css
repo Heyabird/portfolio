@@ -49,6 +49,10 @@ p {
   margin-right: 4%;
 }
 
+.page-content {
+  margin-top: 1rem;
+}
+
 .code-project Button, .page-header Button, .code-project a {
   /* min-width: 80px; */
   font-size: 14px;
