@@ -27,6 +27,7 @@ export const StyledNavItem = styled.div`
     img {
       width: 73%;
       height: auto;
+      margin-top: 8px;
     }
   }
 `;

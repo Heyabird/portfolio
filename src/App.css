@@ -104,14 +104,6 @@ p {
   margin-right: 1.5rem;
 }
 
-#smash-computer {
-  /* background-image: url(./project-images/smash-computer.png); */
-}
-
-#web-drum-kit {
-  /* background-image: url(./project-images/web-drum-kit.png); */
-}
-
 .btn-container {
   position: absolute; 
   bottom: 1rem;  
@@ -159,6 +151,7 @@ p {
   .code-project {
     /* padding: .7rem; */
     height: 210px;
+    min-width: 90%;
   }
 
   .col {
