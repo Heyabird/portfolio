@@ -17,8 +17,9 @@ export const Home = (props) => (
       </div>
     </div>
     <div class="page-content">
-      <h4>My name is Heya. I like to code, design, and make music.</h4>
-      <h4>Hover over me to see what's inside me.</h4>
+      <h4>I'm Heya. I like to code, design, and make music.</h4>
+      <h4 class="desktop-only">Hover over me to see what's inside me.</h4>
+      <h4 class="mobile-only">Click on me to see what's inside me.</h4>
       <div id="heya-cartoon">
         <img src="/heya_outside.svg" onMouseOver={e => (e.currentTarget.src = "/heya_inside.svg")} onMouseOut={e => (e.currentTarget.src = "/heya_outside.svg")}/>
       </div>

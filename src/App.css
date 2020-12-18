@@ -141,6 +141,10 @@ p {
   padding-left: 10px;
 }
 
+.mobile-only {
+  display: none;
+}
+
 @media screen and (max-width: 1110px) {
   .project-header h5 {
     font-size: 17px;
@@ -168,6 +172,14 @@ p {
 }
 
 @media screen and (max-width: 480px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+  
   .page-content {
     padding:0;
   }
