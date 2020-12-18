@@ -5,7 +5,7 @@ import { Button } from 'reactstrap';
 export const NoMatch = () => (
   <>
     <div className="page-header">
-      <h1>Music</h1>  
+      <h1>🎧 Music & Video</h1>  
     </div>
     <div className="page-content">
       <h4>Page Under Construction! <br/><br/>
