@@ -44,7 +44,7 @@ const Wrapper = styled.div`
   z-index: 2;
 
   @media (max-width: ${mobile_breakpoint}px) {
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1.5rem 1rem 1.5rem;
     margin: 0 1rem .5rem 1rem;
     max-width: 100%;
     height: inherit;
