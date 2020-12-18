@@ -252,6 +252,9 @@ p {
 
 /* iphone SE */
 @media screen and (max-width: 320px) {
+  .page-header h1 {
+    font-size: 20px;
+  }
   h4 {
     font-size: 12px !important;
   }
@@ -261,8 +264,27 @@ p {
     height: 22px;
   }
 
-    #heya-cartoon img {
+  #heya-cartoon img {
     width: 70%;
+  }
+  
+  .project-header h5 {
+    font-size: 14px;
+  }
+
+  .project-description p {
+    margin-top: 0;
+  }
+
+  .code-project Button, .page-header Button, .code-project a {
+    font-size: 10px;
+    padding: 3px;
+    height: 25px;
+  }
+
+  .code-project img {
+    max-height: 50px;
+    max-width: 50px;
   }
 }
 
