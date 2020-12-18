@@ -7,7 +7,7 @@ import { Button } from 'reactstrap';
 export const Design = () => (
   <>
     <div className="page-header">
-        <h1>🎨 Art & Design</h1>
+        <h1>Art & Design</h1>
     </div>
     <div className="page-content">
         <h4>Page Under Construction! <br/><br/>
