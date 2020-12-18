@@ -114,6 +114,11 @@ p {
   left: 1rem;
 }
 
+#email-icon {
+  margin-top: 10px;
+  padding-right: 10px;
+}
+
 @media screen and (max-width: 1110px) {
   .project-header h5 {
     font-size: 17px;

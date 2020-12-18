@@ -50,6 +50,7 @@ export const Contact = () => (
   <Styles>
     <Navbar expand="lg">
       {/* <p>Contact Me</p> */}
+      <a href="mailto:heyabird@gmail.com" target="_blank" class=""><i id="email-icon" class="far fa-envelope fa-3x"></i></a>
       <a href="https://www.linkedin.com/in/heya/" target="_blank" class=""><i class="fab fa-linkedin fa-3x "></i></a>
       <a href="https://www.linkedin.com/in/heya/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
       <a href="https://github.com/Heyabird" target="_blank"><i class="fab fa-github-alt fa-3x"></i></a>
