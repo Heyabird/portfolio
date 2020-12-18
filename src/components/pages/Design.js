@@ -12,6 +12,9 @@ export const Design = () => (
     <div className="page-content">
         <h4>Page Under Construction! <br/><br/>
           Meanwhile, check out my weekly comics on <Button href="https://instagram.com/heya.comics" target="_blank"><i class="fab fa-instagram"></i>Instagram</Button>.</h4>
+      <div id="heya-cartoon">
+        <img src="/heya_construction_outside.svg" onMouseOver={e => (e.currentTarget.src = "/heya_construction_inside.svg")} onMouseOut={e => (e.currentTarget.src = "/heya_construction_outside.svg")}/>
+      </div>
     </div>
       {/* <div class="filter"><Button>Filter</Button></div> */}
     <DesignProjects/>
