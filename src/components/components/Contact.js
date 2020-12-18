@@ -51,20 +51,10 @@ export const Contact = () => (
   <Styles>
     <Navbar expand="lg">
       {/* <p>Contact Me</p> */}
-      <a href="mailto:heyabird@gmail.com" target="_blank" class=""><i id="email-icon" class="far fa-envelope fa-3x"></i></a>
+      <a href="https://twitter.com/heyathebird/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
       <a href="https://www.linkedin.com/in/heya/" target="_blank" class=""><i class="fab fa-linkedin fa-3x "></i></a>
-      <a href="https://www.linkedin.com/in/heya/" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
       <a href="https://github.com/Heyabird" target="_blank"><i class="fab fa-github-alt fa-3x"></i></a>
-      {/* <Button href="https://github.com/heyabird/anger-release-app" target="_blank"> */}
-        {/* Repo</Button> */}
-      {/* <Navbar.Brand href="/">Contact Me</Navbar.Brand> */}
-      {/* <Navbar.Toggle aria-controls="basic-navbar-nav"/> */}
-      {/* <Navbar.Collapse id="basic-navbar-nav"> */}
-        {/* <Nav className="ml-auto">
-          <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item> 
-          <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
-        </Nav> */}
-      {/* </Navbar.Collapse> */}
+      <a href="mailto:heyabird@gmail.com" target="_blank" class=""><i id="email-icon" class="far fa-envelope fa-3x"></i></a>
     </Navbar>
   </Styles>
 )
