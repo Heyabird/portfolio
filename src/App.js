@@ -31,13 +31,13 @@ const Everything = styled.div`
 `
 
 const Wrapper = styled.div`
-  margin: 3rem 4rem 2.5rem 9.5rem;
+  margin: 2rem 4rem 2rem 9.5rem;
   height: 82%;
   border: 1px solid black;
   border-radius: 10px;
   width: 85%;
   max-width: 1300px;
-  max-height: 700px;
+  height: 660px;
   padding: 2rem;
   position: absolute;
   // overflow: scroll;
