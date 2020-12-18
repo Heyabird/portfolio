@@ -2,6 +2,10 @@
   background-color: red !important;
 }
 
+h1 {
+  font-weight: 700 !important;
+}
+
 .page-header h2 {
   margin-bottom: 0;
 }
