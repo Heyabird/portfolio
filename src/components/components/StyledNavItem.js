@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const mobile_breakpoint = 480;
+const mobile_breakpoint = 900;
 
 export const StyledNavItem = styled.div`
   // height: 130px;
@@ -29,11 +29,11 @@ export const StyledNavItem = styled.div`
     margin-bottom: 0 !important;
     
     img {
-      width: 70%;
+      width: 90%;
       min-width: 75px;
       height: auto;
       margin-top: 8px;
-      margin: 0 7px;
+      // margin: 0 7px;
     }
   }
 

@@ -11,7 +11,7 @@ import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
 import { createGlobalStyle } from 'styled-components'
 
-const mobile_breakpoint = 480;
+const mobile_breakpoint = 900;
 const xl_breakpoint = 1700;
 
 const GlobalStyle = createGlobalStyle`

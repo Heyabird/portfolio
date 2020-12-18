@@ -1,7 +1,7 @@
 import styled from "styled-components";
 /* This defines the actual bar going down the screen */
 
-const mobile_breakpoint = 480;
+const mobile_breakpoint = 900;
 const xl_breakpoint = 1700;
 
 export const StyledSideNav = styled.div`
@@ -18,9 +18,9 @@ export const StyledSideNav = styled.div`
 
   @media (max-width: ${mobile_breakpoint}px) {
     position: relative;
-    width: inherit;
+    // width: inherit;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     left: 0;
   }

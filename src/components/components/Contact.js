@@ -3,7 +3,7 @@ import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import { Button } from 'reactstrap';
 import styled from 'styled-components';
 
-const mobile_breakpoint = 480;
+const mobile_breakpoint = 900;
 const xl_breakpoint = 1700;
 
 const Styles = styled.div`
