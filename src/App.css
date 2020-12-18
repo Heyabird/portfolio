@@ -52,7 +52,7 @@ p {
 
 /* PROJECT PAGE */
 .project-container {
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 .page-header {
   /* display: flex; */
@@ -95,8 +95,8 @@ p {
 
 .code-project {
   background-color: black;
-  background-size: 100%;
-  background-position: 50%;
+  /* background-size: 100%;
+  background-position: 50%; */
   color: white;
   position: relative;
   margin: 1rem;
@@ -207,7 +207,7 @@ p {
   }
 
   .project-container {
-    max-width: 500px;
+    /* max-width: 500px; */
     padding-bottom: 60px
     /* background-color: red; */
   }
