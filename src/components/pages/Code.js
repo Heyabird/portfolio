@@ -2,7 +2,7 @@ import React from 'react';
 import CodingProjects from '../components/CodingProjects';
 import { Button } from 'reactstrap';
 
-export const About = () => (
+export const Code = () => (
   <>
     <div className="page-header">
         <h1>Coding Projects</h1>

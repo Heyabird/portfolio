@@ -4,8 +4,9 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Contact } from './components/components/Contact';
 import { Home } from './components/pages/Home';
-import { About } from './components/pages/About';
+import { Code } from './components/pages/Code';
 import { Design } from './components/pages/Design';
+import { Music } from './components/pages/Music';
 import { NoMatch } from './components/pages/NoMatch';
 import Sidebar from './components/components/Sidebar';
 import styled from 'styled-components';
@@ -71,8 +72,9 @@ function App() {
         <Sidebar />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route path="/code" component={Code} />
             <Route path="/design" component={Design} />
+            <Route path="/music" component={Music} />            
             <Route component={NoMatch} />
           </Switch>
           <Contact />

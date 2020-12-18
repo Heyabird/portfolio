@@ -34,7 +34,7 @@ class SideNav extends React.Component {
           iconUrl: `{heya}`
         },
         {
-          path: '/about',
+          path: '/code',
           name: 'code',
           imagePath: '/icons/code.svg',
           activeImagePath: '/icons/code-active.svg',          
