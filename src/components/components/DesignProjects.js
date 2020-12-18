@@ -18,23 +18,15 @@ export default class Project extends React.Component {
 
   render() {
     return (
-      <div class="project-container">
-        <Row>
+      <div className="project-container">
+        {/* <Row>
           <Col className="code-project hvr-float-shadow shine">
             <div className="project-header">
               <h5>UI/UX</h5>
-              {/* <div>
-                <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
-                <Button href="https://github.com/heyabird/anger-release-app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
-              </div> */}
             </div>
             <div className="project-description">
-              {/* <img src={SmashComputer}/> */}
               <p></p>
             </div>    
-            {/* <div className="btn-container"> */}
-              {/* <Button color="success">Javascript</Button>
-            </div> */}
           </Col>
 					<Col className="code-project hvr-float-shadow shine">
             <div className="project-header">
@@ -44,7 +36,6 @@ export default class Project extends React.Component {
               </div>
             </div>
             <div className="project-description">
-              {/* <img src={SmashComputer}/> */}
               <p></p>
             </div>    
           </Col>
@@ -53,32 +44,22 @@ export default class Project extends React.Component {
           <Col className="code-project hvr-float-shadow shine">
             <div className="project-header">
               <h5>Graphic Design</h5>
-              {/* <div>
-                <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
-                <Button href="https://github.com/heyabird/anger-release-app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
-              </div> */}
             </div>
             <div className="project-description">
-              {/* <img src={SmashComputer}/> */}
               <p></p>
             </div>    
-            {/* <div className="btn-container"> */}
-              {/* <Button color="success">Javascript</Button>
-            </div> */}
           </Col>
 					<Col className="code-project hvr-float-shadow shine">
             <div className="project-header">
               <h5>Mixed Media</h5>
               <div>
-                {/* <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fab fa-instagram"></i>Instagram</Button> */}
               </div>
             </div>
             <div className="project-description">
-              {/* <img src={SmashComputer}/> */}
               <p></p>
             </div>    
           </Col>
-        </Row>
+        </Row> */}
       </div>
     );
   }

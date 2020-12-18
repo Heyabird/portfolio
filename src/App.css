@@ -73,7 +73,7 @@ p {
   margin-top: 1rem;
 }
 
-.code-project Button, .page-header Button, .code-project a {
+.code-project Button, .page-header Button, .project-container a {
   /* min-width: 80px; */
   font-size: 14px;
   padding: 5px 8px;
@@ -85,6 +85,12 @@ p {
   height: 25px;
   line-height: 0;
   font-size: 12px;
+}
+
+.page-content a {
+  font-size: 20px !important;
+  padding: 4px 8px;
+  height: 40px;
 }
 
 .code-project {
@@ -155,7 +161,7 @@ p {
     padding: 6px;
   }
 
-  .code-project Button, a, #tag-description Button{
+  .code-project Button, a, .project-container Button{
     margin-right: 3px;
     height: 20px;
   }
@@ -222,6 +228,12 @@ p {
   .btn-container {
     /* left: .5rem;
     bottom: .5rem; */
+  }
+
+  .page-content a {
+    font-size: 15px !important;
+    padding: 0 5px;
+    height: 25px;
   }
 }
 
