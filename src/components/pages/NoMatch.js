@@ -5,7 +5,7 @@ export const NoMatch = () => (
   <>
     <div className="page-header">
       <div>
-        <h2>Music</h2>  
+        <h1>Music</h1>  
         <p class="page-content">Coming Soon!</p>
       </div>
     </div>

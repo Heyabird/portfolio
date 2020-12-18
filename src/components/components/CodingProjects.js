@@ -14,9 +14,6 @@ const Wrapper = styled.div`
   display: flex;
 `;
 
-
-
-
 export default class Project extends React.Component {
 
   render() {
