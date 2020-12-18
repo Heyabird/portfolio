@@ -17,7 +17,6 @@ export const Home = (props) => (
       </div>
     </div>
     <div class="page-content">
-      <br/>
       <h4>My name is Heya. I like to code, design, and make music.</h4>
       <h4>Hover over me to see what's inside me.</h4>
       <div id="heya-cartoon">
