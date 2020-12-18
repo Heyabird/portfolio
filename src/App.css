@@ -190,6 +190,7 @@ p {
 
   .project-container {
     max-width: 500px;
+    padding-bottom: 60px
     /* background-color: red; */
   }
 
