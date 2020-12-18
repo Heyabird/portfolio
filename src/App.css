@@ -202,7 +202,7 @@ p {
     justify-content: flex-end;
   }
   #heya-cartoon img {
-    width: 76%;
+    width: 74%;
     /* height: 300px; */
   }
 
@@ -246,6 +246,23 @@ p {
     font-size: 15px !important;
     padding: 0 5px;
     height: 25px;
+    margin: 2px;
+  }
+}
+
+/* iphone SE */
+@media screen and (max-width: 320px) {
+  h4 {
+    font-size: 12px !important;
+  }
+
+  .page-content a {
+    font-size: 12px !important;
+    height: 22px;
+  }
+
+    #heya-cartoon img {
+    width: 70%;
   }
 }
 

@@ -26,14 +26,20 @@ export const StyledNavItem = styled.div`
     border-radius: ${(props) => props.active ? "10px" : "50px"}
   }
   @media (max-width: ${mobile_breakpoint}px) {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     
-
     img {
-      width: 60%;
-      min-width: 60px;
+      width: 70%;
+      min-width: 75px;
       height: auto;
       margin-top: 8px;
+      margin: 0 7px;
     }
   }
+
+  @media (max-width: 350px) {
+    img {
+      width: 70%;
+      min-width: 60px;
+    }
 `;
