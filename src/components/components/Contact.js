@@ -35,9 +35,10 @@ const Styles = styled.div`
   @media (max-width: ${mobile_breakpoint}px) {
     .navbar { 
       position: fixed;
-      bottom: 2%;
+      bottom: 0;
       right: 0;
-      // background-color: red;
+      background-color: white;
+      width: 100%;
     }
     a {
       background-color: white; 
