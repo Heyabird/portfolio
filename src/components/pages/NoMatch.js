@@ -8,8 +8,8 @@ export const NoMatch = () => (
       <h1>Music & Video</h1>  
     </div>
     <div className="page-content">
-      <h4>Page Under Construction! <br/><br/>
-          For now, check out my music on these platforms: <br/> <br/>
+      <h4>Page Under Construction!</h4><h4>
+          For now, check out my music here: <br/> <br/>
           <Button href="https://www.youtube.com/results?search_query=heya+%E3%85%8E%E3%85%87" target="_blank"><i class="fab fa-youtube"></i>Youtube</Button> 
           <Button href="https://soundcloud.com/heyaworld" target="_blank"><i class="fab fa-soundcloud"></i>Soundcloud</Button> 
           <Button href="https://open.spotify.com/artist/00RTzPyOnRKHjxlfR8f4AB" target="_blank"><i class="fab fa-spotify"></i>Spotify</Button> 
