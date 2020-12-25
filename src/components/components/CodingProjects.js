@@ -24,7 +24,7 @@ export default class Project extends React.Component {
             <div className="project-header">
               <h5>Smash Computer</h5>
               <div>
-                <Button href="https://imstuck.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
+                <Button href="https://smashcomputer.netlify.app/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
                 <Button href="https://github.com/heyabird/anger-release-app" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>
@@ -83,7 +83,7 @@ export default class Project extends React.Component {
           <div className="project-header">
               <h5>Sandcamp</h5>
               <div>
-                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button> */}
+                <Button href="https://sandcamp.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
                 <Button href="https://github.com/Heyabird/Sandcamp_v2" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button>
               </div>
             </div>    
@@ -93,7 +93,7 @@ export default class Project extends React.Component {
             </div>            
             <div className="btn-container">
               {/* <Button color="secondary">Full-Stack</Button> */}
-              <Button color="success">Javascript</Button>
+              <Button color="success">React</Button>
               <Button color="success">SCSS</Button> 
               <Button color="danger">Rails</Button>
               <Button color="warning">MySQL</Button> 
