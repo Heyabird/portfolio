@@ -58,7 +58,7 @@ const Wrapper = styled.div`
   }
 
   @media (min-width: ${xl_breakpoint}px) {
-    margin-top: 6%;
+    margin-top: 7%;
   }
 `;
 
