@@ -57,8 +57,12 @@ const Wrapper = styled.div`
     margin: 0 auto;
   }
 
-  @media (min-width: ${xl_breakpoint}px) {
-    margin-top: 7%;
+  @media (min-width: 1300px) {
+    position: fixed;
+    top: 43%;
+    left: 43%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
   }
 `;
 
