@@ -79,8 +79,8 @@ export default class Project extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col className="code-project hvr-float-shadow">
-          <div className="project-header">
+          {/* <Col className="code-project hvr-float-shadow"> */}
+          {/* <div className="project-header">
               <h5>Sandcamp</h5>
               <div>
                 <Button href="https://sandcamp.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button>
@@ -92,14 +92,14 @@ export default class Project extends React.Component {
               <p>Discover hidden gems of the music world. Work in progress.</p>
             </div>            
             <div className="btn-container">
-              {/* <Button color="secondary">Full-Stack</Button> */}
+              <Button color="secondary">Full-Stack</Button>
               <Button color="success">React</Button>
               <Button color="success">SCSS</Button> 
               <Button color="danger">Rails</Button>
               <Button color="warning">MySQL</Button> 
               <Button color="primary">Spotify</Button> 
-            </div>
-          </Col>
+            </div> */}
+          {/* </Col> */}
           <Col className="code-project hvr-float-shadow">
           <div className="project-header">
               <h5>Air Map</h5>
@@ -135,6 +135,25 @@ export default class Project extends React.Component {
             <div className="btn-container">
               <Button color="danger">C++</Button> 
               <Button color="danger">Python</Button>
+            </div>
+          </Col>  
+          <Col className="code-project hvr-float-shadow">
+          <div className="project-header">
+              <h5>Coming Soon</h5>
+              <div>
+                {/* <Button href="https://pikamovie.herokuapp.com/" target="_blank"><i class="fas fa-desktop"></i> Demo</Button> */}
+                {/* <Button href="https://github.com/Heyabird/RaspberryPi-Drumkit" target="_blank"><i class="fab fa-github-alt"></i> Repo</Button> */}
+              </div>
+            </div>
+            <div className="project-description">
+              <img src={RpiDrumKit}/>
+              <p>A music data app coming soon.</p>
+            </div>  
+            <div className="btn-container">
+              <Button color="success">Javascript</Button>
+              <Button color="danger">Rails</Button>
+              <Button color="warning">MySQL</Button> 
+              <Button color="primary">Spotify</Button> 
             </div>
           </Col>   
         </Row>
